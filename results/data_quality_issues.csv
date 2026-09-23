@@ -1,0 +1,81 @@
+table_name,source_row,record_key,rule,severity,disposition,detail
+assets,A0001,EQ-0001,format_standardized,info,auto_corrected,"equipment_id, equipment_type"
+assets,A0004,EQ-0004,missing_manufacturer,warning,needs_enrichment,Leave missing; steward must supply verified manufacturer.
+assets,A0005,EQ-0005,invalid_criticality,error,quarantined,Value outside controlled domain: URGENT
+assets,A0006,EQ-0006,invalid_installation_date,error,quarantined,A valid ISO date on or before 2025-01-01 is required.
+assets,A0012,EQ-0012,format_standardized,info,auto_corrected,equipment_id
+assets,A0014,EQ-0014,format_standardized,info,auto_corrected,equipment_type
+assets,A0021,EQ-0021,missing_manufacturer,warning,needs_enrichment,Leave missing; steward must supply verified manufacturer.
+assets,A0023,EQ-0023,format_standardized,info,auto_corrected,equipment_id
+assets,A0025,EQ-0025,format_standardized,info,auto_corrected,installation_date
+assets,A0027,EQ-0027,format_standardized,info,auto_corrected,equipment_type
+assets,A0031,EQ-0031,conflicting_duplicate,error,quarantined,All versions held for master-data steward review.
+assets,A0032,EQ-0032,conflicting_duplicate,error,quarantined,All versions held for master-data steward review.
+assets,A0034,EQ-0034,format_standardized,info,auto_corrected,equipment_id
+assets,A0038,EQ-0038,missing_manufacturer,warning,needs_enrichment,Leave missing; steward must supply verified manufacturer.
+assets,A0040,EQ-0040,format_standardized,info,auto_corrected,equipment_type
+assets,A0044,EQ-0044,format_standardized,info,auto_corrected,installation_date
+assets,A0045,EQ-0045,format_standardized,info,auto_corrected,equipment_id
+assets,A0053,EQ-0053,format_standardized,info,auto_corrected,equipment_type
+assets,A0055,EQ-0055,missing_manufacturer,warning,needs_enrichment,Leave missing; steward must supply verified manufacturer.
+assets,A0056,EQ-0056,format_standardized,info,auto_corrected,equipment_id
+assets,A0063,EQ-0063,format_standardized,info,auto_corrected,installation_date
+assets,A0066,EQ-0066,format_standardized,info,auto_corrected,equipment_type
+assets,A0067,EQ-0067,format_standardized,info,auto_corrected,equipment_id
+assets,A0072,EQ-0072,missing_manufacturer,warning,needs_enrichment,Leave missing; steward must supply verified manufacturer.
+assets,A0078,EQ-0078,format_standardized,info,auto_corrected,equipment_id
+assets,A0079,EQ-0079,format_standardized,info,auto_corrected,equipment_type
+assets,A0082,EQ-0082,format_standardized,info,auto_corrected,installation_date
+assets,A0089,EQ-0089,format_standardized,info,auto_corrected,equipment_id
+assets,A0089,EQ-0089,missing_manufacturer,warning,needs_enrichment,Leave missing; steward must supply verified manufacturer.
+assets,A0092,EQ-0092,format_standardized,info,auto_corrected,equipment_type
+assets,A0100,EQ-0100,format_standardized,info,auto_corrected,equipment_id
+assets,A0101,EQ-0101,format_standardized,info,auto_corrected,installation_date
+assets,A0105,EQ-0105,format_standardized,info,auto_corrected,equipment_type
+assets,A0106,EQ-0106,missing_manufacturer,warning,needs_enrichment,Leave missing; steward must supply verified manufacturer.
+assets,A0111,EQ-0111,format_standardized,info,auto_corrected,equipment_id
+assets,A0118,EQ-0118,format_standardized,info,auto_corrected,equipment_type
+assets,A0120,EQ-0120,format_standardized,info,auto_corrected,installation_date
+assets,A0122,EQ-0122,format_standardized,info,auto_corrected,equipment_id
+assets,A0123,EQ-0123,missing_manufacturer,warning,needs_enrichment,Leave missing; steward must supply verified manufacturer.
+assets,A0131,EQ-0131,format_standardized,info,auto_corrected,equipment_type
+assets,A0133,EQ-0133,format_standardized,info,auto_corrected,equipment_id
+assets,A0139,EQ-0139,format_standardized,info,auto_corrected,installation_date
+assets,A0140,EQ-0140,missing_manufacturer,warning,needs_enrichment,Leave missing; steward must supply verified manufacturer.
+assets,A0144,EQ-0144,format_standardized,info,auto_corrected,"equipment_id, equipment_type"
+assets,A0155,EQ-0155,format_standardized,info,auto_corrected,equipment_id
+assets,A0157,EQ-0157,format_standardized,info,auto_corrected,equipment_type
+assets,A0157,EQ-0157,missing_manufacturer,warning,needs_enrichment,Leave missing; steward must supply verified manufacturer.
+assets,A0158,EQ-0158,format_standardized,info,auto_corrected,installation_date
+assets,A0166,EQ-0166,format_standardized,info,auto_corrected,equipment_id
+assets,A0170,EQ-0170,format_standardized,info,auto_corrected,equipment_type
+assets,A0174,EQ-0174,missing_manufacturer,warning,needs_enrichment,Leave missing; steward must supply verified manufacturer.
+assets,A0177,EQ-0177,format_standardized,info,auto_corrected,"equipment_id, installation_date"
+assets,A0181,EQ-0021,missing_manufacturer,warning,needs_enrichment,Leave missing; steward must supply verified manufacturer.
+assets,A0181,EQ-0021,exact_duplicate,error,duplicate_removed,Lowest source row retained after canonical comparison.
+assets,A0182,EQ-0022,exact_duplicate,error,duplicate_removed,Lowest source row retained after canonical comparison.
+assets,A0183,EQ-0023,format_standardized,info,auto_corrected,equipment_id
+assets,A0183,EQ-0023,exact_duplicate,error,duplicate_removed,Lowest source row retained after canonical comparison.
+assets,A0184,EQ-0024,exact_duplicate,error,duplicate_removed,Lowest source row retained after canonical comparison.
+assets,A0185,EQ-0031,conflicting_duplicate,error,quarantined,All versions held for master-data steward review.
+assets,A0186,EQ-0032,conflicting_duplicate,error,quarantined,All versions held for master-data steward review.
+assets,A0187,,invalid_equipment_id,error,quarantined,A stable EQ-0000 key is required; do not infer identity.
+assets,A0188,,invalid_equipment_id,error,quarantined,A stable EQ-0000 key is required; do not infer identity.
+assets,A0189,,invalid_equipment_id,error,quarantined,A stable EQ-0000 key is required; do not infer identity.
+work_orders,W0139,WO-00139,orphan_equipment_id,error,quarantined,Asset is absent from accepted master; event excluded from KPIs.
+work_orders,W0218,WO-00218,orphan_equipment_id,error,quarantined,Asset is absent from accepted master; event excluded from KPIs.
+work_orders,W0251,WO-00251,orphan_equipment_id,error,quarantined,Asset is absent from accepted master; event excluded from KPIs.
+work_orders,W0260,WO-00260,orphan_equipment_id,error,quarantined,Asset is absent from accepted master; event excluded from KPIs.
+work_orders,W0262,WO-00262,orphan_equipment_id,error,quarantined,Asset is absent from accepted master; event excluded from KPIs.
+work_orders,W0322,WO-00322,orphan_equipment_id,error,quarantined,Asset is absent from accepted master; event excluded from KPIs.
+work_orders,W0368,WO-00368,orphan_equipment_id,error,quarantined,Asset is absent from accepted master; event excluded from KPIs.
+work_orders,W0384,WO-00384,orphan_equipment_id,error,quarantined,Asset is absent from accepted master; event excluded from KPIs.
+work_orders,W0417,WO-00417,orphan_equipment_id,error,quarantined,Asset is absent from accepted master; event excluded from KPIs.
+work_orders,W0491,WO-00491,orphan_equipment_id,error,quarantined,Asset is absent from accepted master; event excluded from KPIs.
+work_orders,W0516,WO-00516,orphan_equipment_id,error,quarantined,Asset is absent from accepted master; event excluded from KPIs.
+work_orders,W0535,WO-00535,orphan_equipment_id,error,quarantined,Asset is absent from accepted master; event excluded from KPIs.
+work_orders,W0577,WO-00577,orphan_equipment_id,error,quarantined,Asset is absent from accepted master; event excluded from KPIs.
+work_orders,W0601,WO-00601,invalid_cost_eur,error,quarantined,Value must be finite and nonnegative.
+work_orders,W0602,WO-00602,invalid_maintenance_date,error,quarantined,A valid date in the 2025 reporting window is required.
+work_orders,W0603,WO-00603,orphan_equipment_id,error,quarantined,Asset is absent from accepted master; event excluded from KPIs.
+work_orders,W0604,WO-00604,invalid_failure_flag,error,quarantined,This scenario defines one failure per corrective event and none per planned event.

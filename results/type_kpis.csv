@@ -1,0 +1,5 @@
+equipment_type,asset_count,work_order_count,failure_count,maintenance_cost_eur,cost_per_asset_eur,failures_per_100_asset_years
+Compressor,44,146,68,175907.3,3997.89,154.55
+Motor,44,158,42,138247.18,3141.98,95.45
+Valve,44,152,44,128278.63,2915.42,100.0
+Pump,44,131,36,118682.03,2697.32,81.82

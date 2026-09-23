@@ -1,0 +1,12 @@
+table_name,rule,disposition,issue_count
+assets,conflicting_duplicate,quarantined,4
+assets,exact_duplicate,duplicate_removed,4
+assets,format_standardized,auto_corrected,38
+assets,invalid_criticality,quarantined,1
+assets,invalid_equipment_id,quarantined,3
+assets,invalid_installation_date,quarantined,1
+assets,missing_manufacturer,needs_enrichment,12
+work_orders,invalid_cost_eur,quarantined,1
+work_orders,invalid_failure_flag,quarantined,1
+work_orders,invalid_maintenance_date,quarantined,1
+work_orders,orphan_equipment_id,quarantined,14

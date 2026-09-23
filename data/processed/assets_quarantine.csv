@@ -1,0 +1,14 @@
+source_row,equipment_id,functional_location,equipment_type,manufacturer,criticality,installation_date,material_id,plant,quarantine_reason
+A0005,EQ-0005,EAST-UNIT-01,Pump,Fictional Cedar,URGENT,2017-09-13,MAT-005,EAST,invalid_criticality
+A0006,EQ-0006,SOUTH-UNIT-02,Motor,Fictional Atlas,B,not-recorded,MAT-006,SOUTH,invalid_installation_date
+A0031,EQ-0031,NORTH-UNIT-03,Compressor,Fictional Meridian,A,2018-10-21,MAT-007,NORTH,conflicting_duplicate
+A0032,EQ-0032,EAST-UNIT-04,Valve,Fictional Cedar,C,2022-07-06,MAT-008,EAST,conflicting_duplicate
+A0181,EQ-0021,SOUTH-UNIT-01,Pump,,C,2014-09-08,MAT-009,SOUTH,exact_duplicate
+A0182,EQ-0022,NORTH-UNIT-02,Motor,Fictional Meridian,B,2018-06-18,MAT-010,NORTH,exact_duplicate
+A0183, eq-0023 ,EAST-UNIT-03,Compressor,Fictional Cedar,B,2018-08-22,MAT-011,EAST,exact_duplicate
+A0184,EQ-0024,SOUTH-UNIT-04,Valve,Fictional Atlas,B,2022-02-05,MAT-012,SOUTH,exact_duplicate
+A0185,EQ-0031,NORTH-UNIT-03,Compressor,Fictional Meridian,C,2018-10-21,MAT-007,NORTH,conflicting_duplicate
+A0186,EQ-0032,EAST-UNIT-04,Valve,Fictional Cedar,A,2022-07-06,MAT-008,EAST,conflicting_duplicate
+A0187,,EAST-UNIT-01,Pump,Fictional Cedar,B,2018-09-14,MAT-005,EAST,invalid_equipment_id
+A0188,,SOUTH-UNIT-02,Motor,Fictional Atlas,C,2023-08-24,MAT-006,SOUTH,invalid_equipment_id
+A0189,,NORTH-UNIT-03,Compressor,Fictional Meridian,B,2024-03-23,MAT-007,NORTH,invalid_equipment_id

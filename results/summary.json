@@ -1,0 +1,19 @@
+{
+  "seed": 20260923,
+  "reporting_start": "2025-01-01",
+  "reporting_end": "2025-12-31",
+  "raw_asset_rows": 189,
+  "accepted_assets": 176,
+  "held_asset_rows": 13,
+  "raw_work_order_rows": 604,
+  "accepted_work_orders": 587,
+  "held_work_order_rows": 17,
+  "asset_rows_with_any_issue": 59,
+  "accepted_assets_missing_manufacturer": 11,
+  "maintenance_cost_eur": 561115.14,
+  "failure_count": 190,
+  "corrective_cost_share_pct": 69.09,
+  "mean_corrective_downtime_hours": 13.32,
+  "failures_per_100_asset_years": 107.95,
+  "assets_without_accepted_work_orders": 10
+}

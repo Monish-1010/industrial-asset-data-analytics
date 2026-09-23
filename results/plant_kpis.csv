@@ -1,0 +1,4 @@
+plant,asset_count,work_order_count,failure_count,maintenance_cost_eur,corrective_cost_eur,cost_per_asset_eur,failures_per_100_asset_years,corrective_cost_share_pct
+SOUTH,59,180,64,191107.56,138972.34,3239.11,108.47,72.72
+EAST,58,198,63,185484.25,126479.87,3198.0,108.62,68.19
+NORTH,59,209,63,184523.33,122205.34,3127.51,106.78,66.23
